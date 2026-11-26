@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_bg"
+    android:padding="12dp"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/fontName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF1F2937"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fontMeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColor="#FF9CA3AF"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/fontPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:maxLines="2"
+        android:text="@string/preview_sample"
+        android:textColor="#FF111827"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/deleteFontButton"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:background="@drawable/card_bg"
+            android:text="@string/delete"
+            android:textColor="#FF9CA3AF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/applyFontButton"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/primary_button_bg"
+            android:text="@string/apply"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

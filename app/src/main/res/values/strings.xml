@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenDIYFont</string>
+    <string name="subtitle">自主导入字体 · Root / Shizuku · 一键还原</string>
+    <string name="tab_main">主界面</string>
+    <string name="tab_settings">设置</string>
+    <string name="font_list_title">已导入字体</string>
+    <string name="font_count_placeholder">已导入 0 个字体</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_subtitle">设备信息、执行通道、应用方式与恢复选项</string>
+    <string name="mode_auto_short">自动</string>
+    <string name="mode_root_short">Root</string>
+    <string name="mode_shizuku_short">Shizuku</string>
+    <string name="device_title">当前设备</string>
+    <string name="capability_title">执行通道状态</string>
+    <string name="mode_title">执行通道</string>
+    <string name="strategy_title">字体应用方式</string>
+    <string name="strategy_auto">自动（推荐）</string>
+    <string name="strategy_theme">厂商主题注入（免重启 · 小米/红米/POCO）</string>
+    <string name="strategy_module">Systemless 模块（Root/Shizuku Root · 需重启）</string>
+    <string name="strategy_hint">切换方式后请重新应用；已应用的多个字体都会保留在主题字体列表中，恢复默认只切回系统字体、不删除已导入的字体条目。</string>
+    <string name="scope_title">替换范围</string>
+    <string name="import_font">导入字体文件（TTF / OTF / TTC）</string>
+    <string name="import_fab">＋ 导入字体</string>
+    <string name="font_empty">还没有导入字体。\n点击右下角「＋ 导入字体」选择本地字体文件。</string>
+    <string name="restore_default">一键恢复系统默认字体</string>
+    <string name="reboot_after">模块方式应用/恢复后重启（主题注入无需）</string>
+    <string name="logs_title">执行日志</string>
+    <string name="clear_logs">清空日志</string>
+    <string name="refresh">重新检测</string>
+    <string name="apply">应用</string>
+    <string name="delete">删除</string>
+    <string name="preview_sample">字体预览  ABC abc 123  中文排版效果</string>
+    <string name="preview_created_by">使用 OpenDIYFont 创建</string>
+    <string name="confirm_apply_title">确认应用字体</string>
+    <string name="confirm_restore_title">确认恢复默认字体</string>
+    <string name="confirm_restore_msg">将把系统字体切回默认：清理 OpenDIYFont 写入的模块或还原备份字体。\n主题注入方式无需重启，且会保留主题字体列表中的字体，方便日后再次选用；恢复时系统主题应用会短暂打开默认字体页面，属正常现象。\n其他应用/主题自行设置的字体不受影响。继续吗？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="ok">知道了</string>
+    <string name="copy_logs">复制日志</string>
+    <string name="reboot_now">立即重启</string>
+    <string name="working">正在执行…</string>
+    <string name="about_author">项目作者：Aonzey　·　版本 1.4.10</string>
+    <string name="disclaimer">提示：修改系统字体因机型、Android 版本和 ROM 而异。请自行确认字体文件版权，并保留可恢复手段。</string>
+    <string-array name="mode_entries">
+        <item>自动检测（推荐）</item>
+        <item>Root</item>
+        <item>Shizuku</item>
+    </string-array>
+    <string-array name="scope_entries">
+        <item>系统无衬线（Roboto / Noto Sans）</item>
+        <item>无衬线 + 中文（Noto Sans CJK）</item>
+        <item>全部常见系统字体（高风险）</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.6.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21'
+    }
+}
+
+allprojects {
+    group = 'com.opendiyfont'
+    version = '1.0.0'
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}

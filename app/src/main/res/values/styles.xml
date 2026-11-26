@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#FF4F46E5</item>
+        <item name="android:colorAccent">#FF4F46E5</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+
+    <style name="PageTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF312E81</item>
+    </style>
+
+    <style name="PageSubtitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF6B7280</item>
+    </style>
+
+    <style name="Card">
+        <item name="android:background">@drawable/card_bg</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <style name="SectionTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF4338CA</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="PrimaryButton">
+        <item name="android:background">@drawable/primary_button_bg</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

@@ -1,0 +1,25 @@
+# 本地工具链与 Gradle 缓存
+.toolchain/
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+
+# IDE
+*.iml
+.idea/
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 本地诊断/工作记录（不属于源码）
+.tmp/
+.workbuddy/
+
+# 构建产物与本地素材（APK 通过 GitHub Releases 分发）
+output/
+*.apk
+Reference font/
+*应用图标.png
